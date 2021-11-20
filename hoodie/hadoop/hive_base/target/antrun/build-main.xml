@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/Users/sg99076ml/module/hudi/docker/hoodie/hadoop/hive_base/../../../../packaging/hudi-hadoop-mr-bundle/target/hudi-hadoop-mr-bundle-0.10.0-SNAPSHOT.jar" tofile="target/hoodie-hadoop-mr-bundle.jar"/>
+  <copy file="/Users/sg99076ml/module/hudi/docker/hoodie/hadoop/hive_base/../../../../packaging/hudi-hive-sync-bundle/target/hudi-hive-sync-bundle-0.10.0-SNAPSHOT.jar" tofile="target/hoodie-hive-sync-bundle.jar"/>
+  <copy file="/Users/sg99076ml/module/hudi/docker/hoodie/hadoop/hive_base/../../../../packaging/hudi-spark-bundle/target/hudi-spark-bundle_2.11-0.10.0-SNAPSHOT.jar" tofile="target/hoodie-spark-bundle.jar"/>
+  <copy file="/Users/sg99076ml/module/hudi/docker/hoodie/hadoop/hive_base/../../../../packaging/hudi-utilities-bundle/target/hudi-utilities-bundle_2.11-0.10.0-SNAPSHOT.jar" tofile="target/hoodie-utilities.jar"/>
+</target>
+</project>
